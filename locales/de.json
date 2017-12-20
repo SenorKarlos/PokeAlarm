@@ -1,4 +1,14 @@
 {
+  "weather_names": {
+    "0": "Keins",
+    "1": "Sonnig",
+    "2": "Regen",
+    "3": "Teilweise bew\u00f6lkt",
+    "4": "Bew\u00f6lkt",
+    "5": "Windig",
+    "6": "Schnee",
+    "7": "Nebel"
+  },
   "leaders": {
     "0": "Professor Willow", 
     "1": "Blanche", 
