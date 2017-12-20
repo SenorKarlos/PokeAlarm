@@ -1,10 +1,10 @@
 {
   "weather_names": {
     "0": "Keins",
-    "1": "Sonnig",
+    "1": "Klar",
     "2": "Regen",
     "3": "Teilweise bew\u00f6lkt",
-    "4": "Bew\u00f6lkt",
+    "4": "Bedeckt",
     "5": "Windig",
     "6": "Schnee",
     "7": "Nebel"
