@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Standard Library Imports
 import os
 import json
@@ -88,3 +90,16 @@ class Locale(object):
     # Returns the name of the weather condition
     def get_weather_name(self, weather_id):
         return self.__weather_names.get(weather_id, 'unknown')
+
+    # Returns the emoji of the weather condition
+    def get_weather_emoji(self, weather_id):
+        emojis = {
+            1: u"☀️",
+            2: u"☔️",
+            3: u"🌤",
+            4: u"☁️",
+            5: u"💨",
+            6: u"⛄️",
+            7: u"🌁"
+        }
+        return emojis.get(weather_id, '')
