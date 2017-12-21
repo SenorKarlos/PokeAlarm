@@ -1148,7 +1148,7 @@ class Manager(object):
 
         if self.__quiet is False:
             log.info("Egg ({})  notification has been "
-                     "triggered!").format(gym_id)
+                     "triggered!".format(gym_id))
 
         time_str = get_time_as_str(egg['raid_end'], self.__timezone)
         start_time_str = get_time_as_str(egg['raid_begin'], self.__timezone)
@@ -1198,7 +1198,7 @@ class Manager(object):
         if self.__cache.get_raid_expiration(gym_id) is not None:
             if self.__quiet is False:
                 log.info("Raid {} ignored. Was previously "
-                         "processed.").format(gym_id)
+                         "processed.".format(gym_id))
             return
 
         self.__cache.update_raid_expiration(gym_id, raid_end)
