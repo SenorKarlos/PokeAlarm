@@ -460,8 +460,8 @@ class PokemonFilter(Filter):
             "size": None,
             "gender": None,
             "form": None,
-            "min_rating_attack": "F", "max_rating_attack": "A",
-            "min_rating_defense": "F", "max_rating_defense": "A"
+            "min_rating_attack": "X", "max_rating_attack": "A",
+            "min_rating_defense": "X", "max_rating_defense": "A"
         })
         return rtn
 
