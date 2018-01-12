@@ -243,7 +243,6 @@ def get_pokemon_cp_range(pokemon_id, level):
 
 # Returns the size ratio of a pokemon
 def size_ratio(pokemon_id, height, weight):
-    print get_base_height(pokemon_id)
     height_ratio = height / get_base_height(pokemon_id)
     weight_ratio = weight / get_base_weight(pokemon_id)
     return height_ratio + weight_ratio
