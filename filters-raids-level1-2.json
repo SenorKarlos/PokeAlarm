@@ -1,0 +1,100 @@
+{ 
+    "gyms":{
+        "enabled":"False",
+        "ignore_neutral":"False",
+        "filters":[
+            {
+                "from_team":["Valor", "Instinct", "Mystic"], "to_team":["Valor", "Instinct", "Mystic"],
+                "min_dist":"0", "max_dist":"inf"
+            }
+        ]
+    },
+    "pokestops":{
+        "enabled":"False",
+        "filters":{ "min_dist":"0", "max_dist":"10" }
+    },
+  	"pokemon": {
+		"enabled": "False",
+		"default": {
+			"min_dist": "0",
+			"max_dist": "inf",
+			"min_cp": "0",
+			"max_cp": "4760",
+			"min_iv": "0",
+			"max_iv": "100",
+			"min_atk": "0",
+			"max_atk": "15",
+			"min_def": "0",
+			"max_def": "15",
+			"min_sta": "0",
+			"max_sta": "15",
+			"quick_move": null,
+			"charge_move": null,
+			"moveset": null,
+			"size": null,
+			"gender": null,
+			"form": null,
+			"ignore_missing": "False"
+		},
+		"Venusaur": "True",
+		"Charizard": "True",
+		"Blastoise": "True",
+		"Arcanine": "True",
+		"Poliwrath": "True",
+		"Dodrio": "True",
+		"Gengar": "True",
+		"Hitmonlee": "True",
+		"Hitmonchan": "True",
+		"Lapras": "True",
+		"Porygon": "True",
+		"Omastar": "True",
+		"Kabutops": "True",
+		"Aerodactyl": "True",
+		"Dratini": "True",
+		"Dragonair": "True",
+		"Meganium": "True",
+		"Typhlosion": "True",
+		"Feraligatr": "True",
+		"Togetic": "True",
+		"Mareep": "True",
+		"Flaaffy": "True",
+		"Donphan": "True",
+		"Larvitar": "True"
+	},
+	
+    "eggs":{
+        "enabled":"False",
+        "min_level": "1",
+        "max_level": "5"
+    },
+    "raids":{
+        "enabled":"True",
+        "default": {
+            "min_dist":"0", "max_dist":"inf", "min_cp": "0", "max_cp": "999999", "min_iv":"0", "max_iv":"100",
+            "min_atk": "0", "max_atk":"15", "min_def": "0", "max_def":"15", "min_sta": "0", "max_sta":"15",
+            "quick_move": null, "charge_move": null, "moveset": null,
+            "size": null, "gender": null, "form": null, "ignore_missing": "False"
+        },
+       "Magikarp":"True",
+       "Bayleef":"True",
+       "Quilava":"True",
+       "Croconaw":"True",       
+       "Muk":"True",
+       "Exeggutor":"True",
+       "Weezing":"True",
+       "Electabuzz":"True",
+       "Magmar":"True",
+       "Wartortle": "True",
+       "Charmeleon": "True",
+       "Ivysaur": "True", 
+       "Metapod": "True",
+       "Sandslash": "True",
+       "Marowak": "True",
+       "Sableye": "True",
+       "Magneton": "True",
+       "Tentacruel": "True",
+       "Mawile": "True",
+       "Cloyster": "True",
+       "Wailmer":"True" 
+    }
+}

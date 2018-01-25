@@ -1,0 +1,21 @@
+[
+  {
+    "active": "True",
+    "startup_message": "False",
+    "type": "discord",
+    "webhook_url": "https://discordapp.com/api/webhooks/350826826891001867/wkV3Q-2cE1GhMBHStToidJyju3qeJ04JHMycYUsQHvNVnf15QLWXhibwgXOiJfZkXC7C",
+    	"pokemon": {
+		"webhook_url":"https://discordapp.com/api/webhooks/350826826891001867/wkV3Q-2cE1GhMBHStToidJyju3qeJ04JHMycYUsQHvNVnf15QLWXhibwgXOiJfZkXC7C",
+		"username": "YGK-Spawn",
+		"url": "<gmaps>",
+		"body": "<address> (<neighborhood>) \nAvailable until <24h_time> (<time_left>).\n<gmaps>",
+		"map": {             
+			"enabled":"true", 
+			"width":"250",    
+			"height":"125",  
+			"maptype":"roadmap",
+			"zoom": "15"      
+			}	
+	}
+  }
+]

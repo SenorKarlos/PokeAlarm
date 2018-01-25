@@ -1,0 +1,22 @@
+[
+  {
+    "active": "True",
+    "startup_message": "False",
+    "type": "discord",
+    "webhook_url": "https://discordapp.com/api/webhooks/350826511785263114/9kf93s6ptmEAIkSPII2rDsLNMorhgaJECdg2O67igs3j4VfFS0lEHn6zR-gKRU3_IqN7",
+    	"pokemon": {
+		"webhook_url":"https://discordapp.com/api/webhooks/350826511785263114/9kf93s6ptmEAIkSPII2rDsLNMorhgaJECdg2O67igs3j4VfFS0lEHn6zR-gKRU3_IqN7",
+		"username": "YGK-Spawn",
+		"title": "A wild <pkmn> has spawned!",
+		"url": "<gmaps>",
+		"body": "<address> (<neighborhood>) \nAvailable until <24h_time> (<time_left>).\n<gmaps>",
+		"map": {             
+			"enabled":"true", 
+			"width":"250",    
+			"height":"125",  
+			"maptype":"roadmap",
+			"zoom": "15"      
+			}	
+          }
+  }
+]
