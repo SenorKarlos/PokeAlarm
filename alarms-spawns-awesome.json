@@ -1,0 +1,22 @@
+[
+  {
+    "active": "True",
+    "startup_message": "False",
+    "type": "discord",
+    "webhook_url": "https://discordapp.com/api/webhooks/400861553752145920/Z11atPiKxAUnAzhf6mGoPtcLwD28To3ZMtiE3NYVUN5VktklfxH56liquiiiPENSKgxF",
+    	"pokemon": {
+		"webhook_url":"https://discordapp.com/api/webhooks/400861553752145920/Z11atPiKxAUnAzhf6mGoPtcLwD28To3ZMtiE3NYVUN5VktklfxH56liquiiiPENSKgxF",
+		"username": "HighIV-Spawn",
+		"url": "<gmaps>",
+	"body": "**IV:** <iv>%  **CP:** <cp>  **Level:** <level> \n**ATK:** <atk> **DEF:** <def> **STA:** <sta> \n**MOVES:** <quick_move>/<charge_move> \n<address> (<neighborhood>) \nAvailable until <24h_time> (<time_left>). \n*Note: CP/IV for trainers level 30+ and subject to change by weather conditions* \n<gmaps>",
+
+		"map": {             
+			"enabled":"true", 
+			"width":"250",    
+			"height":"125",  
+			"maptype":"roadmap",
+			"zoom": "15"      
+			}	
+	}
+  }
+]

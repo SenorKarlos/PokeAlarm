@@ -1,0 +1,31 @@
+[
+  {
+    "active": "True",
+    "startup_message": "False",
+    "type": "discord",
+    "webhook_url": "https://discordapp.com/api/webhooks/352623134819483668/HTereNzGAUCxypK7ilB3SfZiKvIFiXObhL44dxpjm3-bBUexFOtQyaGhIqacN-eK7svI",
+    "egg": {
+        "webhook_url":"https://discordapp.com/api/webhooks/352623134819483668/HTereNzGAUCxypK7ilB3SfZiKvIFiXObhL44dxpjm3-bBUexFOtQyaGhIqacN-eK7svI",
+	"username": "YGK-Incubator",
+        "content": "",
+        "title": "Level: <raid_level> incoming!",
+        "url": "<gmaps>",
+        "body": "<address> (<neighborhood>)\nGym: **<gym_name>**\n will hatch <begin_12h_time> (<begin_time_left>).\n<gmaps>"
+        },
+    "raid": {
+        "webhook_url":"https://discordapp.com/api/webhooks/352623134819483668/HTereNzGAUCxypK7ilB3SfZiKvIFiXObhL44dxpjm3-bBUexFOtQyaGhIqacN-eK7svI",
+        "username": "YGK-Raid",
+        "content": "",
+        "title": "Level: <raid_level> vs <pkmn>!",
+        "url": "<gmaps>",
+        "body": "<address> (<neighborhood>)\nGym: **<gym_name>**\nMoves: **<quick_move>/<charge_move>**\nMin CP: **<min_cp>** - Max CP: **<max_cp>**\nAvailable until <12h_time> (<time_left>).\nCheck <#340902587513569280> to coordinate\n<gmaps>",
+	"map": {             
+		"enabled":"true", 
+		"width":"250",    
+		"height":"125",  
+		"maptype":"roadmap",
+		"zoom": "15"      
+		}	
+          }
+  }
+]

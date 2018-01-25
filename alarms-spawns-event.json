@@ -1,0 +1,21 @@
+[
+  {
+    "active": "True",
+    "startup_message": "False",
+    "type": "discord",
+    "webhook_url": "https://discordapp.com/api/webhooks/382729946948435978/JgQRn_gtto8exPiIRcmSo1EQOux7IhzLTxRpRY3gYj5aGqNgcXf3_STdGqMPTtLuVvn7",
+    	"pokemon": {
+		"webhook_url":"https://discordapp.com/api/webhooks/382729946948435978/JgQRn_gtto8exPiIRcmSo1EQOux7IhzLTxRpRY3gYj5aGqNgcXf3_STdGqMPTtLuVvn7",
+		"username": "YGK-Farfetch'd",
+		"url": "<gmaps>",
+		"body": "**IV:** <iv>%  **CP:** <cp>  **Level:** <level> \n**ATK:** <atk> **DEF:** <def> **STA:** <sta> \n**MOVES:** <quick_move>/<charge_move> \n<address> (<neighborhood>) \nAvailable until <24h_time> (<time_left>). \n*Note: CP/IV/Moves for trainer level 30+* \n<gmaps>",
+		"map": {             
+			"enabled":"true", 
+			"width":"250",    
+			"height":"125",  
+			"maptype":"roadmap",
+			"zoom": "15"      
+			}	
+	}
+  }
+]
